@@ -90,6 +90,28 @@ div.papers span.conference {
   color: #484848;
 }
 
+div.news-talks-events {
+  font-size: 20px;
+}
+
+div.news-talks-events p {
+  text-align: center;
+  font-style: italic;
+}
+
+div.news-talks-events div {
+  display: flex;
+  margin-top: -20px;
+}
+
+div.news-talks-events div ul li {
+  text-align: left; 
+}
+
+div.news-talks-events div ul li span.date {
+  color: rgb(125, 30, 0);
+}
+
 div.teaching {
   font-size: 20px;
 }
