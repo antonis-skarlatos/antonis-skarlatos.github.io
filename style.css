@@ -108,7 +108,7 @@ div.news-talks-events div ul li {
   text-align: left; 
 }
 
-div.news-talks-events div ul li span.date {
+div.news-talks-events div ul li span.date, div.teaching div ul li span.date {
   color: rgb(125, 30, 0);
 }
 
