@@ -16,8 +16,8 @@ body {
     top: 0;
     z-index: 1000;  
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(248, 247, 243, 0.8); /* f8f7f3 with 80% opacity */
-    backdrop-filter: blur(4px); /* soft blur behind */
+    background-color: rgba(248, 247, 243, 0.8);
+    backdrop-filter: blur(4px);
 }
 
 .navbar a {
