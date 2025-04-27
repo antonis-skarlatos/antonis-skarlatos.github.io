@@ -8,6 +8,29 @@ body {
   padding: 0 1em;
 }
 
+.navbar {
+    padding: 12px 0;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;  
+    background-color: rgba(240, 248, 255, 0.7);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #333333;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #6495ED;
+}
+
 h2 {
   text-align: center;
   color: #6495ED;
