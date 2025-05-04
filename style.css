@@ -6,36 +6,36 @@ body {
   margin: 1em auto;
   text-align: justify;
   padding: 0 1em;
+  font-size: 18px;
 }
 
 .navbar {
-    padding: 12px 0;
-    width: 100%;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;  
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(248, 247, 243, 0.8);
-    backdrop-filter: blur(4px);
+  padding: 12px 0;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(248, 247, 243, 0.8);
+  backdrop-filter: blur(4px);
 }
 
 .navbar a {
-    color: #333333;
-    font-size: 18px;
-    padding: 8px 15px;
-    transition: color 0.3s ease-in-out;
+  color: #333333;
+  padding: 8px 15px;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-    text-decoration: none;
-    color: #6495ED;
+  text-decoration: none;
+  color: #6495ED;
 }
 
 h2 {
   text-align: center;
   color: #6495ED;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 a {
@@ -52,10 +52,14 @@ li {
   margin-bottom: 20px;
 }
 
+li:last-child {
+  margin-bottom: 0px;
+}
+
 h1.metitle {
   text-align: center;
   color: #1A1A40;
-  font-size: 55px;
+  font-size: 45px;
 }
 
 div.about_me {
@@ -63,35 +67,26 @@ div.about_me {
   justify-content: center;
 }
 
-div.my_info {
-  font-size: 18px;
+div.my_info > a {
+  display: inline-block;
+  margin-top: 5px;
 }
 
 img.myself {
-  width: 250px;
+  width: 234px;
   height: 320px;
-  margin: 0px 70px 0px 0px;
-  border-radius: 30px;
+  margin: 0px 70px 10px 0px;
+  border-radius: 25px;
 }
 
 div.description h2 {
   margin-top: 0px;
 }
 
-div.description p {
-  font-size: 20px;
-}
-
 div.research_interests p {
   width: 800px;
-  font-size: 20px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   text-align: justify;
-}
-
-div.publications {
-  font-size: 20px;
-  margin-top: 50px;
 }
 
 div.publications p {
@@ -115,9 +110,6 @@ div.papers span.conference {
   color: #484848;
 }
 
-div.news-talks-events {
-  font-size: 20px;
-}
 
 div.news-talks-events p {
   text-align: center;
@@ -137,9 +129,18 @@ div.news-talks-events div ul li span.date, div.teaching div ul li span.date {
   color: rgb(125, 30, 0);
 }
 
-div.teaching {
-  font-size: 20px;
+details > summary {
+  color: #6495ED;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: -30px;
 }
+
+details[open] > summary {
+  margin-bottom: 12px;
+}
+
 
 div.teaching div {
   display: flex;
@@ -147,9 +148,6 @@ div.teaching div {
   margin-top: -20px;
 }
 
-div.academic_service {
-  font-size: 20px;
-}
 
 div.academic_service div {
   display: flex;
@@ -157,9 +155,6 @@ div.academic_service div {
   margin-top: -20px;
 }
 
-div.bio {
-  font-size: 20px;
-}
 
 div.bio p {
   margin-left: 38px;
